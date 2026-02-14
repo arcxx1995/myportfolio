@@ -9,6 +9,12 @@ export const config = {
     resume: {
         url: ""
     },
+    music: {
+        url: "/audio/Chaos In The CBD - Midnight In Peckham.webm",
+        autoplay: true,
+        volume: 0.4,
+        autoUnmuteOnFirstInteraction: true
+    },
     labels: {
         hero: {
             greeting: "Hello! I'm",
@@ -35,7 +41,7 @@ export const config = {
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught Full-Stack Developer from India. I build and ship production-ready products end-to-end using AI-native workflows — from frontend and backend to deployment, testing and maintenance. I specialize in taking products from idea to production independently, handling architecture, development, deployment, and maintenance. I focus on simplicity, ownership and shipping real systems that work reliably. My expertise includes Full-Stack Web Development with React, Node.js, and Python. Currently building a chaotic, obscene social game.  I have am entreprenuerial mindset and a deep passion for automation. Code is poetry, I'm just a muse."
+        description: "I am a self-taught Full-Stack Developer from India. I build and ship production-ready products end-to-end using AI-native workflows — from frontend and backend to deployment, handling architecture, testing and maintenance. I focus on simplicity, ownership and shipping real systems that work reliably. My expertise includes Full-Stack Web Development with React, Node.js, and Python. Currently building a chaotic, obscene social game.  I have an entreprenuerial mindset and a deep passion for automation. Code is poetry, I'm just a muse."
     },
     experiences: [
         {
@@ -150,10 +156,10 @@ export const config = {
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
+            title: "AGENT OPS",
             description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            details: "Building AI agents and automations using OpenClaw, integrating APIs, messaging platforms, and models for reliable autonomous execution.",
+            tools: ["OpenClaw", "Ollama", "Slack", "RestAPIs", "Webhooks", "Docker", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
         },
         design: {
             title: "FULL-STACK",

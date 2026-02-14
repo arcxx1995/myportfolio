@@ -31,6 +31,9 @@
   position: relative;
   display: flex;
 }
+.social-icons span.audio-toggle-slot {
+  height: 90px;
+}
 .social-icons a {
   --siLeft: 50%;
   --siTop: 50%;

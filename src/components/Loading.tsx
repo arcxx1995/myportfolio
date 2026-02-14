@@ -50,9 +50,7 @@ const Loading = ({ percent }: { percent: number }) => {
   return (
     <>
       <div className="loading-header">
-        <a href="/#" className="loader-title" data-cursor="disable">
-          Logo
-        </a>
+        <a href="/#" className="loader-title" data-cursor="disable">{config.developer?.name || "Arpan"}</a>
         <div className={`loaderGame ${clicked && "loader-out"}`}>
           <div className="loaderGame-container">
             <div className="loaderGame-in">
@@ -67,7 +65,7 @@ const Loading = ({ percent }: { percent: number }) => {
       <div className="loading-screen">
         <div className="loading-marquee">
           <Marquee>
-            {marqueeItems.concat(marqueeItems).map((text, idx) => (
+            {marqueeItems.concat(marqueeItems).map((text: string, idx: number) => (
               <span key={idx}>&nbsp; {text} &nbsp;</span>
             ))}
           </Marquee>
