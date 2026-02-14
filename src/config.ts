@@ -59,18 +59,18 @@ export const config = {
             technologies: ["Research", "Innovation", "Open Source", "New Tech"]
         },
         {
-            position: "App Developer",
+            position: "iOS App Developer",
             company: "Freelance & Projects",
             period: "2025",
             location: "India",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            description: "Developed and deployed iOS applications using Swift and modern frameworks, implementing scalable architecture, secure authentication, and responsive user interfaces. Integrated REST APIs, optimized app performance, and ensured reliability through testing, debugging, and continuous improvements.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Designed and developed scalable iOS app features",
+                "Integrated REST APIs and backend services",
+                "Implemented secure authentication and user management",
+                "Optimized performance, fixed bugs, and improved stability"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["Swift", "XCODE", "Codemagic", "Flutter", "Figma"]
         },
         {
             position: "Full-Stack Developer",
@@ -87,18 +87,18 @@ export const config = {
             technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
         },
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
+            position: "Product Marketing",
+            company: "viact.ai",
             period: "2023",
             location: "India",
             description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Defined product positioning and messaging for AI solutions",
+                "Conducted market research and competitor analysis",
+                "Collaborated with sales for go-to-market execution",
+                "Created content, case studies, and product narratives"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
+            technologies: ["N8n", "Make", "Zapier", "Clay", "Problem Solving"]
         },
         {
             position: "Graphic Designer",
