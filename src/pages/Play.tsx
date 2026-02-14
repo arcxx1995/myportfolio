@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Chess, Square, PieceSymbol, Color } from "chess.js";
 import RedoxChessEngine from "../utils/redoxchessEngine";
 import "./Play.css";
+import { config } from "../config";
 
 // Piece SVG components matching chess.com style with custom colors
 const PIECES: Record<string, string> = {
@@ -366,10 +367,10 @@ const Play = () => {
           <div className="player-bar opponent-bar">
             <div className="player-info">
               <div className="player-avatar">
-                <img src="/images/mypic.jpeg" alt="Redoyanul" />
+                <img src={config.developer.avatar || "/images/mypic.jpeg"} alt={config.developer.fullName} />
               </div>
               <div className="player-details">
-                <span className="player-name">Redoyanul</span>
+                <span className="player-name">{config.developer.name || config.developer.fullName}</span>
                 <span className="player-rating">{engineThinking ? '🤔 Thinking...' : 'ELO 3640'}</span>
               </div>
             </div>

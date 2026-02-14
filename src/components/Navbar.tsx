@@ -80,17 +80,17 @@ const Navbar = () => {
         <ul>
           <li>
             <a data-href="#about" href="#about">
-              <HoverLinks text="ABOUT" />
+              <HoverLinks text={config.labels?.navbar?.about || "ABOUT"} />
             </a>
           </li>
           <li>
             <a data-href="#work" href="#work">
-              <HoverLinks text="WORK" />
+              <HoverLinks text={config.labels?.navbar?.work || "WORK"} />
             </a>
           </li>
           <li>
             <a data-href="#contact" href="#contact">
-              <HoverLinks text="CONTACT" />
+              <HoverLinks text={config.labels?.navbar?.contact || "CONTACT"} />
             </a>
           </li>
         </ul>

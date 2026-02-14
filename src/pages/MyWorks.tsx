@@ -10,9 +10,9 @@ const MyWorks = () => {
           ← Back to Home
         </Link>
         <h1>
-          All <span>Works</span>
+          {config.labels?.myWorks?.title || "All"} <span>{config.labels?.myWorks?.titleSpan || "Works"}</span>
         </h1>
-        <p>A collection of all my projects and creations</p>
+        <p>{config.labels?.myWorks?.subtitle || "A collection of all my projects and creations"}</p>
       </div>
 
       <div className="myworks-grid">
@@ -27,6 +27,25 @@ const MyWorks = () => {
               <p className="myworks-card-category">{project.category}</p>
               <p className="myworks-card-description">{project.description}</p>
               <p className="myworks-card-tech">{project.technologies}</p>
+              {((project as any).repo || (project as any).demo || (project as any).play) && (
+                <div className="myworks-card-actions">
+                  {(project as any).repo && (
+                    <a href={(project as any).repo} target="_blank" rel="noopener noreferrer">
+                      Repo
+                    </a>
+                  )}
+                  {(project as any).demo && (
+                    <a href={(project as any).demo} target="_blank" rel="noopener noreferrer">
+                      Demo
+                    </a>
+                  )}
+                  {(project as any).play && (
+                    <a href={(project as any).play} target="_blank" rel="noopener noreferrer">
+                      Play
+                    </a>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         ))}
