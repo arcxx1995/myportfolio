@@ -19,6 +19,9 @@ export const config = {
             work: "WORK",
             contact: "CONTACT"
         },
+        loading: {
+            marquee: ["Vibe Coder", "Full-Stack Developer"]
+        },
         myWorks: {
             title: "All",
             titleSpan: "Works",
@@ -32,7 +35,7 @@ export const config = {
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught Full-Stack Vibe Developer from India. I build and ship production-ready products end-to-end using AI-native workflows — from frontend and backend to deployment, testing and maintenance. I specialize in taking products from idea to production independently, handling architecture, development, deployment, and maintenance. I focus on simplicity, ownership and shipping real systems that work reliably. My expertise includes Full-Stack Web Development with React, Node.js, and Python. Currently building a chaotic, obscene social game.  I have am entreprenuerial mindset and a deep passion for automation. Code is poetry, I'm just a muse."
+        description: "I am a self-taught Full-Stack Developer from India. I build and ship production-ready products end-to-end using AI-native workflows — from frontend and backend to deployment, testing and maintenance. I specialize in taking products from idea to production independently, handling architecture, development, deployment, and maintenance. I focus on simplicity, ownership and shipping real systems that work reliably. My expertise includes Full-Stack Web Development with React, Node.js, and Python. Currently building a chaotic, obscene social game.  I have am entreprenuerial mindset and a deep passion for automation. Code is poetry, I'm just a muse."
     },
     experiences: [
         {
@@ -50,7 +53,7 @@ export const config = {
             technologies: ["Research", "Innovation", "Open Source", "New Tech"]
         },
         {
-            position: "AI Engineer",
+            position: "App Developer",
             company: "Freelance & Projects",
             period: "2025",
             location: "India",
@@ -125,9 +128,9 @@ export const config = {
             id: 1,
             title: "ashleel cards",
             category: "Web Application",
-            technologies: "Express.js, React, MongoDB, Node",
-            image: "/images/drishti.png",
-            description: "India's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            technologies: "React, Vite, GSAP, MongoDB, Node.js, Express, Socket.io",
+            image: "/images/ashleelcards.png",
+            description: "ashlees cards is an obscene, personalized, real‑time, multiplayer party card game where players roast and submit answers anonymously, bluff, and guess who played what, with live scoring and persistent history/leaderboards."
         },
         {
             id: 2,
@@ -142,7 +145,6 @@ export const config = {
         email: "arcxx1995@gmail.com",
         github: "https://github.com/arcxx1995",
         linkedin: "https://linkedin.com/in/arpanroyc/",
-        twitter: "https://x.com/red_1_ul",
         facebook: "https://www.facebook.com/the.boy.on.boat",
         instagram: "https://www.instagram.com/spacekapow"
     },

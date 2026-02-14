@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./styles/Loading.css";
 import { useLoading } from "../context/LoadingProvider";
+import { config } from "../config";
 
 import Marquee from "react-fast-marquee";
 
@@ -9,6 +10,10 @@ const Loading = ({ percent }: { percent: number }) => {
   const [loaded, setLoaded] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const [clicked, setClicked] = useState(false);
+  const marqueeItems =
+    (config.labels as any)?.loading?.marquee?.length
+      ? (config.labels as any).loading.marquee
+      : config.developer.title.split("&").map((s) => s.trim()).filter(Boolean);
 
   if (percent >= 100) {
     setTimeout(() => {
@@ -62,8 +67,9 @@ const Loading = ({ percent }: { percent: number }) => {
       <div className="loading-screen">
         <div className="loading-marquee">
           <Marquee>
-            <span>&nbsp; AI Engineer &nbsp;</span> <span>&nbsp; Full Stack Developer &nbsp;</span>
-            <span>&nbsp; AI Engineer &nbsp;</span> <span>&nbsp; Full Stack Developer &nbsp;</span>
+            {marqueeItems.concat(marqueeItems).map((text, idx) => (
+              <span key={idx}>&nbsp; {text} &nbsp;</span>
+            ))}
           </Marquee>
         </div>
         <div
