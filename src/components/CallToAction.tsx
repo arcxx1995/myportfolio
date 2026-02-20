@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { config } from "../config";
 import "./styles/CallToAction.css";
 
 const CallToAction = () => {
@@ -11,7 +10,7 @@ const CallToAction = () => {
         </Link>
         
         <a 
-          href={config.contact.linkedin} 
+          href="https://zcal.co/arpanroychowdhury/60min"
           target="_blank" 
           rel="noopener noreferrer" 
           className="cta-btn cta-btn-hire"
