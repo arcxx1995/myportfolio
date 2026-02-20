@@ -1,15 +1,40 @@
-# My Portfolio Wesbite by @red1-for-hek - Overview 🚀
+# Portfolio Website
 
-If you are copying this code or forking this repo, please give a credit of my name :(
+Personal portfolio website built with React, TypeScript, Vite, GSAP, and Three.js.
 
-## Instructions 🛠️
+## Tech Stack
 
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
+- React 18
+- TypeScript
+- Vite
+- GSAP
+- Three.js / React Three Fiber
+- Node.js
 
-**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
+## Run Locally
 
-- [Protfolio-Preview](https://www.redoyanulhaque.me/)
+```bash
+npm install
+npm run dev
+```
+
+App runs on your local Vite development server.
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deployment
+
+- Netlify config: `netlify.toml`
+- Vercel config: `vercel.json`
+- Build output directory: `dist`
+
+Push to `main` to trigger your connected Git deploy workflow.
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is available under the [MIT License](LICENSE).
