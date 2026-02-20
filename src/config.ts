@@ -91,7 +91,7 @@ export const config = {
             company: "viact.ai",
             period: "2023",
             location: "India",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            description: "Led product marketing for AI safety solutions, driving positioning, demand generation, and adoption across enterprise and industrial clients.",
             responsibilities: [
                 "Defined product positioning and messaging for AI solutions",
                 "Conducted market research and competitor analysis",
@@ -101,30 +101,30 @@ export const config = {
             technologies: ["N8n", "Make", "Zapier", "Clay", "Problem Solving"]
         },
         {
-            position: "Graphic Designer",
-            company: "Freelance",
+            position: "Product Marketing",
+            company: "Loantube",
             period: "2022",
             location: "India",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
+            description: "Drove product positioning, go-to-market strategy, and user adoption for digital lending products through data-backed messaging and campaigns.",
             responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
+                "Defined value propositions and messaging for loan products across segments",
+                "Planned and executed go-to-market launches for new features",
+                "Conducted user and competitor research to refine positioning",
+                "Partnered with product and sales teams to improve adoption and retention"
             ],
             technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
         },
         {
-            position: "Microsoft Office",
-            company: "Begin Learning",
+            position: "Performance Marketing",
+            company: "ETML",
             period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
+            location: "India",
+            description: "Led data-driven campaigns across digital channels, optimizing CAC, ROAS, and conversions through continuous testing and audience targeting.",
             responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
+                "Managed paid campaigns on Meta and Google Ads with performance-focused optimization",
+                "Conducted A/B testing on creatives, copies, and landing pages",
+                "Analyzed funnel metrics to improve conversion rates and reduce acquisition costs",
+                "Collaborated with design and content teams to scale high-performing creatives"
             ],
             technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
         }
