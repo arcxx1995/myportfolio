@@ -143,8 +143,14 @@ body:has(.play-page) {
 
 .player-bar .captured-pieces {
   flex: 1;
+  min-width: 0;
   display: flex;
   justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
   background: none;
   border: none;
   padding: 0;
@@ -231,6 +237,7 @@ body:has(.play-page) {
   width: 24px;
   height: 24px;
   opacity: 0.7;
+  flex: 0 0 auto;
 }
 
 .captured-piece svg {
