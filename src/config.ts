@@ -59,18 +59,18 @@ export const config = {
             technologies: ["Research", "Innovation", "Open Source", "New Tech"]
         },
         {
-            position: "iOS App Developer",
-            company: "Freelance & Projects",
+            position: "Product Marketing",
+            company: "viact.ai",
             period: "2025",
             location: "India",
-            description: "Developed and deployed iOS applications using Swift and modern frameworks, implementing scalable architecture, secure authentication, and responsive user interfaces. Integrated REST APIs, optimized app performance, and ensured reliability through testing, debugging, and continuous improvements.",
+            description: "Led product marketing for AI safety solutions, driving positioning, demand generation, and adoption across enterprise and industrial clients.",
             responsibilities: [
-                "Designed and developed scalable iOS app features",
-                "Integrated REST APIs and backend services",
-                "Implemented secure authentication and user management",
-                "Optimized performance, fixed bugs, and improved stability"
+                "Defined product positioning and messaging for AI solutions",
+                "Conducted market research and competitor analysis",
+                "Collaborated with sales for go-to-market execution",
+                "Created content, case studies, and product narratives"
             ],
-            technologies: ["Swift", "XCODE", "Codemagic", "Flutter", "Figma"]
+            technologies: ["N8n", "Make", "Zapier", "Clay", "Problem Solving"]
         },
         {
             position: "Full-Stack Developer",
@@ -87,18 +87,18 @@ export const config = {
             technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
         },
         {
-            position: "Product Marketing",
-            company: "viact.ai",
+            position: "iOS App Developer",
+            company: "Freelance & Projects",
             period: "2023",
             location: "India",
-            description: "Led product marketing for AI safety solutions, driving positioning, demand generation, and adoption across enterprise and industrial clients.",
+            description: "Developed and deployed iOS applications using Swift and modern frameworks, implementing scalable architecture, secure authentication, and responsive user interfaces. Integrated REST APIs, optimized app performance, and ensured reliability through testing, debugging, and continuous improvements.",
             responsibilities: [
-                "Defined product positioning and messaging for AI solutions",
-                "Conducted market research and competitor analysis",
-                "Collaborated with sales for go-to-market execution",
-                "Created content, case studies, and product narratives"
+                "Designed and developed scalable iOS app features",
+                "Integrated REST APIs and backend services",
+                "Implemented secure authentication and user management",
+                "Optimized performance, fixed bugs, and improved stability"
             ],
-            technologies: ["N8n", "Make", "Zapier", "Clay", "Problem Solving"]
+            technologies: ["Swift", "XCODE", "Codemagic", "Flutter", "Figma"]
         },
         {
             position: "Product Marketing",
