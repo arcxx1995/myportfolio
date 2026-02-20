@@ -65,23 +65,31 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {config.projects.slice(0, 5).map((project, index) => (
-            <div className="work-box" key={project.id}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
+          {config.projects.slice(0, 5).map((project, index) => {
+            const projectLink =
+              (project as any).link ||
+              (project as any).demo ||
+              (project as any).repo ||
+              (project as any).play;
 
-                  <div>
-                    <h4>{project.title}</h4>
-                    <p>{project.category}</p>
+            return (
+              <div className="work-box" key={project.id}>
+                <div className="work-info">
+                  <div className="work-title">
+                    <h3>0{index + 1}</h3>
+
+                    <div>
+                      <h4>{project.title}</h4>
+                      <p>{project.category}</p>
+                    </div>
                   </div>
+                  <h4>Tools and features</h4>
+                  <p>{project.technologies}</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>{project.technologies}</p>
+                <WorkImage image={project.image} alt={project.title} link={projectLink} />
               </div>
-              <WorkImage image={project.image} alt={project.title} />
-            </div>
-          ))}
+            );
+          })}
           {/* See All Works Button */}
           <div className="work-box work-box-cta">
             <div className="see-all-works">

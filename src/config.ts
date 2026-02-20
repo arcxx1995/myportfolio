@@ -136,6 +136,7 @@ export const config = {
             category: "Web Application",
             technologies: "React, Vite, GSAP, MongoDB, Node.js, Express, Socket.io",
             image: "/images/ashleelcards.png",
+            link: "https://github.com/arcxx1995",
             description: "ashlees cards is an obscene, personalized, real‑time, multiplayer party card game where players roast and submit answers anonymously, bluff, and guess who played what, with live scoring and persistent history/leaderboards."
         },
         {
